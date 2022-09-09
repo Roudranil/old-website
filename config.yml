@@ -14,16 +14,16 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # is necessary
-
-assets:
-  favicon: favicon/favicon.ico
-  favicon16x16: favicon/favicon-16x16.png
-  favicon32x32: favicon/favicon-32x32.png
+    - JSON
 
 params:
   assets:
     disableFingerprinting: true
+    favicon: favicon/favicon.ico
+    favicon16x16: favicon/favicon-16x16.png
+    favicon32x32: favicon/favicon-32x32.png
+    apple_touch_icon: favicon/apple_touch_icon.png
+    safari_pinned_tab: favicon/safari_pinned_tab.png
      
   profileMode:
     enabled: true
@@ -35,10 +35,10 @@ params:
 
       The [`Academics`](/academics/) section lists some of my class notes and assignments.
 
-    imageUrl: img/profilephoto.png # optional
-    # imageTitle: "<title of image as alt>" # optional
-    imageWidth: 200 # custom size
-    imageHeight: 200 # custom size
+    imageUrl: img/profilephoto.png
+    # imageTitle: <title of image as alt>
+    imageWidth: 200
+    imageHeight: 200
 
   AuthorName: Roudranil Das
   GitHubUser: roudranil
@@ -51,13 +51,13 @@ params:
 
   socialIcons:
     - name: email
-      url: "mailto:roudranil@cmi.ac.in"
+      url: mailto:roudranil@cmi.ac.in
     - name: kaggle
-      url: "https://www.kaggle.com/roudranildas"
+      url: https://www.kaggle.com/roudranildas
     - name: linkedin
-      url: "https://www.linkedin.com/in/roudranil-das/"
+      url: https://www.linkedin.com/in/roudranil-das/
     - name: github
-      url: "https://github.com/Roudranil"
+      url: https://github.com/Roudranil
 
   defaultTheme: dark
 
@@ -73,7 +73,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: [title, permalink, summary, content]
 
   math: true
 
