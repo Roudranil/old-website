@@ -1,0 +1,120 @@
+baseURL: https://roudranil.github.io
+languageCode: en-us
+theme: PaperMod
+
+enableEmoji: true
+enableGitInfo: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+assets:
+  favicon: favicon/favicon.ico
+  favicon16x16: favicon/favicon-16x16.png
+  favicon32x32: favicon/favicon-32x32.png
+
+params:
+  assets:
+    disableFingerprinting: true
+     
+  profileMode:
+    enabled: true
+    title: "Hi there \U0001F44B"
+    subtitle: |
+      I am Roudranil, and this is my website.
+      
+      Click on [`About`](/about/) to know more about me. Here you will find my [`Posts`](/posts/) and [`Projects`](/projects/), which are mainly on machine learning, computer vision and some math stuff.
+
+      The [`Academics`](/academics/) section lists some of my class notes and assignments.
+
+    imageUrl: img/profilephoto.png # optional
+    # imageTitle: "<title of image as alt>" # optional
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+
+  AuthorName: Roudranil Das
+  GitHubUser: roudranil
+  showMenuItems: 5
+  showLanguageSelector: false
+  fullWidthTheme: false
+  centerTheme: true
+  autoCover: true
+  showLastUpdated: false
+
+  socialIcons:
+    - name: email
+      url: "mailto:roudranil@cmi.ac.in"
+    - name: kaggle
+      url: "https://www.kaggle.com/roudranildas"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/roudranil-das/"
+    - name: github
+      url: "https://github.com/Roudranil"
+
+  defaultTheme: dark
+
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  math: true
+
+languages:
+  en:
+    languageName: English
+    title: Roudranil
+    subtitle: MSc. Data Science @ CMI
+    # owner: ''
+    # keywords: ''
+    copyright: © 2022 Roudranil Das | 
+    menuMore: Show more
+    readMore: Read more
+    readOtherPosts: Read other posts
+    newerPosts: Newer posts
+    olderPosts: Older posts
+    missingContentMessage: Page not found...
+    missingBackButtonLabel: Back to home page
+    params:
+      logo:
+        logoText: roudranilD
+        logoHomeLink: /
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: about/
+          weight: 10
+        - identifier: posts
+          name: Posts
+          url: /posts
+          weight: 20
+        - identifier: projects
+          name: Projects
+          url: /projects
+          weight: 30
+        - identifier: academic
+          name: Academics
+          url: /academics
+          weight: 40
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 50
