@@ -61,7 +61,7 @@ params:
 
   defaultTheme: dark
 
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowCodeCopyButtons: true
   ShowShareButtons: false
   ShowReadingTime: true
