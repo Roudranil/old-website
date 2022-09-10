@@ -29,6 +29,6 @@ data is also a viable method to compute the efficacy.
 
 ## Link to the paper
 
-The full text of the project paper is [available here](/pdfs/dissertation.pdf).
+The full text of the project paper is [available here](/pdf/dissertation.pdf).
 
 The code associated with the paper (as well as the paper itself) can be found in this [repo](https://github.com/Roudranil/Bayesian-analysis-of-efficacy-of-the-ChAdOx1-nCoV-19-AZD1222-vaccine).
