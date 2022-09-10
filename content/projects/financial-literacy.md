@@ -10,6 +10,6 @@ hidemeta: false
 comments: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 UseHugoToc: true
 ---
