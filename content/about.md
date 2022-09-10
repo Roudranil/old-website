@@ -75,35 +75,40 @@ Following are the courses i have taken in my undergraduate and postgraduate degr
 
 ## Skills
 
-`Python` <span style="float:right; position:relative; text-size:medium;">90%</span>
+![Python](/fontawesome/python.png) 
+<!-- `Python` <span style="float:right; position:relative; text-size:medium;">90%</span> -->
 <div class="skillbox">
 	<div class="skill">
 		<div class="level" style="width: 90%; background-color: #646464;"></div>
 	</div>
 </div>
 
-$\text{\LaTeX}$ <span style="float:right; position:relative; text-size:medium;">90%</span>
+$\text{\LaTeX}$ 
+<!-- <span style="float:right; position:relative; text-size:medium;">90%</span> -->
 <div class="skillbox">
 	<div class="skill">
 		<div class="level" style="width: 90%; background-color: #646464;"></div>
 	</div>
 </div>
 
-`R` <span style="float:right; position:relative; text-size:medium;">80%</span>
+![R](/fontawesome/R.png)
+<!-- `R` <span style="float:right; position:relative; text-size:medium;">80%</span> -->
 <div class="skillbox">
 	<div class="skill">
 		<div class="level" style="width: 80%; background-color: #646464;"></div>
 	</div>
 </div>
 
-`Git` <span style="float:right; position:relative; text-size:medium;">70%</span>
+![git](/fontawesome/git.png)
+<!-- `Git` <span style="float:right; position:relative; text-size:medium;">70%</span> -->
 <div class="skillbox">
 	<div class="skill">
 		<div class="level" style="width: 70%; background-color: #646464;"></div>
 	</div>
 </div>
 
-`C` <span style="float:right; position:relative; text-size:medium;">60%</span>
+![C](/fontawesome/c.png)
+<!-- `C` <span style="float:right; position:relative; text-size:medium;">60%</span> -->
 <div class="skillbox">
 	<div class="skill">
 		<div class="level" style="width: 60%; background-color: #646464;"></div>
