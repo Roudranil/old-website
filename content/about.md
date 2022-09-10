@@ -1,14 +1,13 @@
 ---
 title: "About me"
-date: 2022-09-06T16:40:25+05:30
-draft: true
-author: "Roudranil"
+date:
+author: ""
 showToc: True
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 UseHugoToc: True
