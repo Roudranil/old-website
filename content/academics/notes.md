@@ -11,6 +11,7 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: false
 UseHugoToc: true
+hideSummary: true
 ---
 ---
 ## Semester 1 (Aug - Nov 2022)

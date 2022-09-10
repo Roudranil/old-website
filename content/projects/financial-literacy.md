@@ -12,4 +12,5 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: false
 UseHugoToc: true
+hideSummary: true
 ---
