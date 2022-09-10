@@ -114,7 +114,11 @@ languages:
           name: Academics
           url: /academics
           weight: 40
+        - identifier: contact
+          name: Contact
+          url: contact/
+          weight: 50
         - identifier: search
           name: Search
           url: search/
-          weight: 50
+          weight: 60
