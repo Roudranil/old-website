@@ -74,9 +74,47 @@ Following are the courses i have taken in my undergraduate and postgraduate degr
 
 ---
 
+## Skills
+
+`Python` <span style="float:right; position:relative; text-size:medium;">90%</span>
+<div class="skillbox">
+	<div class="skill">
+		<div class="level" style="width: 90%; background-color: #646464;"></div>
+	</div>
+</div>
+
+$\text{\LaTeX}$ <span style="float:right; position:relative; text-size:medium;">90%</span>
+<div class="skillbox">
+	<div class="skill">
+		<div class="level" style="width: 90%; background-color: #646464;"></div>
+	</div>
+</div>
+
+`R` <span style="float:right; position:relative; text-size:medium;">80%</span>
+<div class="skillbox">
+	<div class="skill">
+		<div class="level" style="width: 80%; background-color: #646464;"></div>
+	</div>
+</div>
+
+`Git` <span style="float:right; position:relative; text-size:medium;">70%</span>
+<div class="skillbox">
+	<div class="skill">
+		<div class="level" style="width: 70%; background-color: #646464;"></div>
+	</div>
+</div>
+
+`C` <span style="float:right; position:relative; text-size:medium;">60%</span>
+<div class="skillbox">
+	<div class="skill">
+		<div class="level" style="width: 60%; background-color: #646464;"></div>
+	</div>
+</div>
+		
+---
 ## Resume
 
-[Resume](https://github.com/Roudranil/resume/blob/main/resumev2.pdf "My resume")
+[Resume](/pdf/roudranil-resume.pdf "My resume")
 
 
 
