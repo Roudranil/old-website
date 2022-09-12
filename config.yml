@@ -27,13 +27,11 @@ params:
      
   profileMode:
     enabled: true
-    title: "Hi there \U0001F44B"
+    title: "Hello there \U0001F44B"
     subtitle: |
       I am Roudranil, and this is my website.
       
-      Click on [`About`](/about/) to know more about me. Here you will find my [`Posts`](/posts/) and [`Projects`](/projects/), which are mainly on machine learning, computer vision and some math stuff.
-
-      The [`Academics`](/academics/) section lists some of my class notes and assignments.
+      Click on [`About`](/about/) to know more about me. [`Academics`](/academics/) contains the course notes I have taken till now in my MSc. Data Science program at CMI.
 
     imageUrl: img/profilephoto.png
     # imageTitle: <title of image as alt>
@@ -102,10 +100,10 @@ languages:
           name: About
           url: about/
           weight: 10
-        - identifier: posts
-          name: Posts
-          url: /posts
-          weight: 20
+        # - identifier: posts
+        #   name: Posts
+        #   url: /posts
+        #   weight: 20
         - identifier: projects
           name: Projects
           url: /projects
