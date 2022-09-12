@@ -1,0 +1,33 @@
+SEM 1/MATH/
+
+SEM 1/PDSP/Assignments
+SEM 1/PDSP/nptel course
+
+SEM 1/PBSR & VISU/assignments
+# SEM 1/PBSR & VISU/PBSR classwork
+SEM 1/PBSR & VISU/practice
+SEM 1/PBSR & VISU/visualisation classwork/trial_project_folder
+
+SEM 1/RDBMS & SQL/
+
+SEM 1/random works (latex)/
+
+SEM 1/random works (python)/
+
+SEM 1/random works (R)/
+
+*.toc
+*.png
+*.aux
+*.fdb_latexmk
+*.fls
+*.txt
+*.out
+*.log
+*.gz
+*.RData
+*.Rhistory
+*.csv
+*.tex
+.Rproj.user
+*desktop.ini

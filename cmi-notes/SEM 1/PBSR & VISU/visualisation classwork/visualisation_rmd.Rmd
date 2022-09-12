@@ -1,0 +1,170 @@
+---
+title: "Visualisation with R notes"
+author: "Roudranil Das"
+output:
+  html_document: default
+  pdf_document: default
+---
+### CW 12/08/22 {-}
+
+```{r}
+attach(mtcars)
+mtcars
+```
+#### Describing the data types in mtcars {-}
+
+* mpg: continuous
+* cyl: count
+* disp: continuous
+* hp: discrete
+* wt: continuous
+* drat: continuous
+* qsec: continuous
+* vs: categorical (binary)
+* am: binary
+* gear: count
+* carb: count
+
+```{r}
+summary(mtcars$mpg)
+```
+```{r}
+hist(mtcars$mpg, xlab = "mpg")
+```
+
+Now we would want to make a frequency table. Looking at the histogram (or alternate code):
+
+BIN:   FREQUENCY  :   RELATIVE FREQUENCY (/32)    :   REL FREQ DENSITY
+
+10-15: 6          :   6/32                        :   (6/32)/5
+
+15-20: 12         :   12/32                       :   (12/32)/5
+
+20-25: 8          :   8/32                        :   (8/32)/5
+
+25-30: 2          :   2/32                        :   (2/32)/5
+
+30-35: 4          :   4/32                        :   (4/32)/5
+
+```{r}
+length(mtcars$mpg[mtcars$mpg>10 & mtcars$mpg<=15])
+length(mtcars$mpg[mtcars$mpg>15 & mtcars$mpg<=20])
+length(mtcars$mpg[mtcars$mpg>20 & mtcars$mpg<=25])
+length(mtcars$mpg[mtcars$mpg>25 & mtcars$mpg<=30])
+length(mtcars$mpg[mtcars$mpg>30 & mtcars$mpg<=35])
+```
+```{r}
+hist(mtcars$mpg, xlab = "mpg", freq = F)
+```
+
+Here area of each of the box is the relative frequency of that bin. Thus the area of the box is an approximation of probability in reality. Kind of how Riemann sum approximates the area under a curve, the area of these boxes (or rectangles) give probability, which sort of makes sense in the context of continuous random variables. 
+
+We can add multiple colours with ```col``` argument. Change title with ```main``` argument.
+
+```{r}
+x = mtcars$mpg
+hist(x, xlab="mpg", freq=F)
+m = mean(mtcars$mpg)
+s = sd(mtcars$mpg)
+x = seq(5, 40, length.out=100)
+y = dnorm(x, mean = m, sd = s)
+lines(x, y, col="red", lwd=3)
+```
+-----
+
+### CW 26/08/22
+
+```{r}
+library(ggplot2)
+diamonds
+```
+
+```{r}
+nrow(diamonds)
+```
+
+```{r, fig=TRUE}
+qplot(carat, price, data=diamonds)
+```
+
+Thus we see a non linear relationship between `carat` and `price`. In case we want to see something like a logarithmic scaled versoon of this graph.
+
+
+```{r, fig=TRUE}
+n = nrow(diamonds)
+set.seed(100)
+id = sample(1:n, size=5000, replace=FALSE)
+small = diamonds[id,]
+qplot(log(carat), log(price), data = small, alpha = I(1/10))
+```
+
+
+```{r, fig=TRUE}
+qplot(log(carat), log(price), data = small, color = cut)
+```
+
+```{r, fig=TRUE}
+qplot(log(carat), log(price), data = small, 
+      color = color, 
+      geom = c("point", "smooth"))
+```
+
+----------
+
+## CW 02/09/2022
+
+```{r, fig=TRUE}
+library(tidyverse)
+data <- diamonds[sample(1:nrow(diamonds), 15000, replace = FALSE),]
+```
+
+```{r}
+data %>% 
+    ggplot(aes(x = depth, y = price)) +
+    geom_point()
+```
+
+
+```{r}
+data %>% 
+    ggplot(aes(x = carat, y = price, color = color)) +
+    geom_point() + 
+    geom_smooth(method = "loess") + 
+    facet_grid(.~color) + 
+    labs(x = "Carat",
+         y = "Price",
+         title = "nonsense")
+```
+
+```{r}
+# very cluttered graph, not like minard's napoleon's march
+data %>% 
+    ggplot(aes(y = log(carat), x = log(price), color = factor(color))) + 
+    geom_point() +
+    geom_smooth(se = F) + 
+    facet_grid(clarity~.)
+```
+
+
+------
+## CW 09/09/22
+
+### Making a pie chart in ggplot
+
+```{r}
+library(tidyverse)
+```
+```{r}
+data = diamonds
+cut = data['cut']
+freq_table = data.frame(table(cut))
+
+freq_table %>%
+    ggplot(aes(x = "", y = Freq, fill = cut)) + 
+    coord_polar("y", start = 0) + 
+    geom_bar(stat = "identity", width = 1) +
+    # theme_minimal() + 
+    scale_fill_brewer(palette = "Set1")
+    
+```
+
