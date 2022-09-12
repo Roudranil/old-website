@@ -4,3 +4,6 @@
 [submodule "static/resume"]
 	path = static/resume
 	url = https://github.com/Roudranil/resume.git
+[submodule "static/cmi-notes"]
+	path = static/cmi-notes
+	url = https://github.com/Roudranil/cmi-notes.git
