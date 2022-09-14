@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/lmroman10-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/lmroman10-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/font/lmroman10-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/font/lmroman10-bolditalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code New Roman NF';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/Code New Roman Nerd Font Complete.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code New Roman NF';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/Code New Roman Italic Nerd Font Complete.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code New Roman NF';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/font/Code New Roman Bold Nerd Font Complete.otf') format('opentype');
+}
+
+body {
+    font-family: 'Latin Modern';
+}
+
+code {
+    font-family: 'Code New Roman NF', Menlo, Monaco, Consolas;
+    direction: ltr;
+}
