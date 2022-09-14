@@ -1,14 +1,22 @@
 a {
     position: relative;
 }
+
+a:hover {
+    color: #98F9FF;
+    
+}
   
 a::before {
+    
+    color: #98F9FF;
     content: '';
     position: absolute;
     width: 100%;
-    height: 1.5px;
+    height: 1.3px;
     border-radius: 4px;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
+    background-color: #98F9FF;
     bottom: 0;
     left: 0;
     transform-origin: right;

@@ -29,7 +29,8 @@ hideSummary: true
 2. [Object Oriented programming](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PDSP/notes/Object%20oriented%20programing.pdf)
 3. [Associated Jupyter Notebook](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PDSP/notes/lecture_notes.ipynb) -->
 1. [Introduction to Python Programming](/cmi-notes/SEM%201/PDSP/notes/notes.pdf)  
-2. [Object Oriented programming](/cmi-notes/SEM%201/PDSP/notes/Object%20oriented%20programing.pdf)
+2. [Object Oriented programming](/cmi-notes/SEM%201/PDSP/notes/Object%20oriented%20programing.pdf)  
+   There's a section on linked lists and flexible lists in it as well.
 3. [Associated Jupyter Notebook](/cmi-notes/SEM%201/PDSP/notes/lecture_notes.ipynb)
 
 
@@ -48,7 +49,9 @@ hideSummary: true
 
 *4 credits course*.  
 
-Although there is no class notes that I can upload, a good idea is to follow **Principles of Mathematical Analysis** by Walter Rudin and **Introduction to Real Analysis** by Bartle and Sherbert.
+Although there is no class notes that I can upload, a good idea is to follow <span style="color:#F6DDCC">**Principles of Mathematical Analysis**</span> by Walter Rudin and <span style="color:#F6DDCC">**Introduction to Real Analysis**</span> by Bartle and Sherbert.
+
+For multivariable calculus, it's usually recommended to follow <span style="color:#F6DDCC">**Calculus, Volume 2**</span> by Tom M. Apostol. Personally I do find [<span style="color:#F6DDCC">**Multivariable Calculus**</span>](https://open.umn.edu/opentextbooks/textbooks/780) by Don Shimamoto to be very useful as well.
 
 ### Visualisation with R
 
@@ -57,3 +60,9 @@ Although there is no class notes that I can upload, a good idea is to follow **P
 <!-- 1. [Associated R markdown file](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PBSR%20%26%20VISU/visualisation%20classwork/visualisation_rmd.Rmd) -->
 
 1. [Associated R markdown file](/cmi-notes/SEM%201/PBSR%20%26%20VISU/visualisation%20classwork/visualisation_rmd.html)
+
+### RDBMS and SQL
+
+*2 credits course*.
+
+Will be added soon.

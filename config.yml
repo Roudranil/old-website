@@ -29,9 +29,9 @@ params:
     enabled: true
     title: "Hello there \U0001F44B"
     subtitle: |
-      I am Roudranil, and this is my website.
+      <br>I am Roudranil, and this is my website.<br><br>
       
-      Click on [`About`](/about/) to know more about me. [`Academics`](/academics/) contains the course notes I have taken till now in my MSc. Data Science program at CMI.
+      Click on [`About`](/about/) to know more about me. [`Academics`](/academics/) contains the course notes I have taken till now in my MSc. Data Science program at CMI. <br><br>
 
     imageUrl: img/profilephoto.png
     # imageTitle: <title of image as alt>

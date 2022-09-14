@@ -14,3 +14,11 @@ ShowPostNavLinks: false
 UseHugoToc: true
 hideSummary: true
 ---
+
+## Synopsis
+
+We conduct a survey where we test the respondent's knowledge on 4 aspenct: financial knowledge and skills, financial attitude and knowledge about inflation and other parameters. Using these we attempt to judge their financial literacy.
+
+This project is being conducted by by 5 first year MSc. Data Science students at the Chennai Mathematical Institute: Me, Adarsha Mondal, Shreyan Chakraborty, Deepmalya Dutta and Ujan Dasgputa.
+
+The project is in progress. More information will be added at a later point of time.
