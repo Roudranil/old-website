@@ -16,17 +16,9 @@ hugo-heading-anchors: false
 ShowCodeCopyButtons: false
 ---
 
-## Introduction
 ---
-<style>
-  div-for-course {
-    display:block;
-    background-color:#545454;
-    border-radius:15px;
-    color:#F6DDCC;
-  }
-</style>
 
+## Introduction
 
 I am Roudranil Das, a first year **MSc. Data Science** student at the <span style="color:#5DADE2">**Chennai Mathematical Institute, India**</span> and I did my bachelors in Mathematics from <span style="color:#AED6F1">St. Xavier's College, Kolkata</span>. 
 
