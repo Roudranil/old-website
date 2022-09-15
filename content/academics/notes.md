@@ -65,4 +65,4 @@ For multivariable calculus, it's usually recommended to follow <span style="colo
 
 *2 credits course*.
 
-Will be added soon.
+1. [Introduction to RDBMS and SQL](/cmi-notes/SEM%201/RDBMS%20%26%20SQL/notes/notes.pdf)
