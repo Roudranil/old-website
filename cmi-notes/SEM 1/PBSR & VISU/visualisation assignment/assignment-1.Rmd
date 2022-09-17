@@ -1,0 +1,206 @@
+---
+title: '**Visualisation**: Assignment 1'
+author: 'Name: Roudranil Das Roll Number: MDS202227'
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instruction: 
+1) Work on the `Assignment1.Rmd' file. Compile the file as pdf. Submit only the pdf file in moodle.
+2) Make sure you write your name and roll number at the top of the `Assignment1.Rmd' file.
+
+## Total Marks: 10 points
+
+## Problem 1 (3 points)
+
+**Problem Statement:** Write an $\texttt{R}$ function which will test Central Limit Theorem.
+
+
+*   Assume the underlying population distribution follow Poisson distribution with rate parameter $\lambda$
+*   We want to estimate the unknown $\lambda$ with the sample mean 
+$$
+\hat{\lambda}=\frac{1}{n}\sum_{i=1}^{n}X_i
+$$
+*   The exact sampling distribution of $\hat{\lambda}$ is unknown
+*   But CLT tells us that as sample size $n$ increases the sampling distribution of $\hat{\lambda}$ can be approximated by Gaussian distribution.
+
+
+### **Input in the function:**
+
+* $n$: sample size 
+* $\lambda$ : rate parameter
+* $N$: simulation size
+
+
+## **Output from the function:** 
+
+* Histogram of the sampling distribution using `ggplot`
+* QQ-plot using `ggplot`
+
+## **Test cases:**
+
+* case 1 a: $\lambda=0.7$, n=10, N=5000
+* case 1 b: $\lambda=0.7$, n=30, N=5000
+* case 1 c: $\lambda=0.7$, n=100, N=5000
+* case 1 d: $\lambda=0.7$, n=300, N=5000
+
+* case 2 a: $\lambda=1.7$, n=10, N=5000
+* case 2 b: $\lambda=1.7$, n=30, N=5000
+* case 2 c: $\lambda=1.7$, n=100, N=5000
+* case 2 d: $\lambda=1.7$, n=300, N=5000
+
+```{r}
+library(tidyverse)
+
+simulate_clt = function(lambda, n, N){
+    sim_means = c()
+    for(i in 1:N){
+        sample = rpois(n, lambda)
+        sample_mean = mean(sample)
+        sim_means = append(sim_means, sample_mean)
+    }
+    # we create a dataset with the columns being the sample means and 
+    # respective values of lambda and n
+    data = data.frame(sim_means, rep(lambda, N), rep(n, N))
+    colnames(data) = c("mean", "lambda", "n")
+    return(data)
+}
+
+lambdas = rep(c(0.7, 1.7), times = 1, each = 4)
+n = rep(c(10, 30, 100, 300), times = 2)
+N = rep(5000, times = 8)
+```
+
+For $\lambda = 0.7$, we get the following $4$ histograms:
+```{r fig=TRUE, fig.dim=c(7,3)}
+dataset = data.frame()
+for(i in 1:4){
+    # the datasets all created are binded rowwise
+    # this is done to help us to create the facet grids
+    dataset = rbind(dataset, simulate_clt(lambdas[i], n[i], N[i]))
+}
+dataset %>% 
+    ggplot(aes(x = mean)) + 
+    geom_histogram(bins = 20, color = "white") + 
+    facet_grid(vars(lambda), vars(n), scales = "free") + 
+    labs(title = paste("Histograms corresponding to lambda =", lambdas[1], sep = " "),
+         x = "Sample means",
+         y = "Count")
+```
+
+For the same value of $\lambda$, we get the following $4$ QQ-plots.
+```{r fig.dim=c(5,5)}
+dataset = data.frame()
+for(i in 1:4){
+    dataset = rbind(dataset, simulate_clt(lambdas[i], n[i], N[i]))
+}
+dataset %>% 
+    ggplot(aes(sample = mean)) +
+    geom_qq(size = 0.6) +
+    geom_qq_line(color = "blue") +
+    facet_wrap(vars(n), scales = "free") +
+    labs(title = "QQ-plot for lambda = 0.7")
+```
+
+For $\lambda = 1.7$, we get the following 4 histograms:
+```{r fig=TRUE, fig.dim=c(7,3)}
+dataset = data.frame()
+for(i in 5:8){
+    dataset = rbind(dataset, simulate_clt(lambdas[i], n[i], N[i]))
+}
+dataset %>% 
+    ggplot(aes(x = mean)) + 
+    geom_histogram(bins = 20, color = "white") + 
+    facet_grid(vars(lambda), vars(n), scales = "free") + 
+    labs(title = paste("Histograms corresponding to lambda =", lambdas[5], sep = " "),
+         x = "Sample means",
+         y = "Count")
+```
+
+And we follow this the corresponding QQ-plots:
+```{r fig.dim=c(5,5)}
+dataset = data.frame()
+for(i in 5:8){
+    dataset = rbind(dataset, simulate_clt(lambdas[i], n[i], N[i]))
+}
+dataset %>% 
+    ggplot(aes(sample = mean)) +
+    geom_qq(size = 0.6) +
+    geom_qq_line(color = "blue") +
+    facet_wrap(vars(n), scales = "free") +
+    labs(title = "QQ-plot for lambda = 1.7")
+```
+
+### **Problem 2:** (2 points)
+
+Consider the `JohnsonJohnson` dataset. The datset contains the Quarterly earnings (dollars) per Johnson & Johnson share 1960–80.
+
+a) Draw the time series plot of Quarterly earnings in regular scale and log-scale using the ` ggplot` (1 point)
+
+```{r}
+head(JohnsonJohnson)
+```
+
+```{r}
+JohnsonJohnson %>% 
+    ggplot(aes(x))
+```
+
+
+### **Problem 3:** (2 points)
+
+- An experiment was conducted to measure and compare the effectiveness of various feed supplements on the growth rate of chickens.
+
+- Following R-code is a standard side-by-side boxplot showing effect of feed supplements on the growth rate of chickens.
+
+```{r,fig=T}
+boxplot(weight~feed,data=chickwts,pch=20
+        ,main = "chickwt data"
+        ,ylab = "Weight at six weeks (gm)"
+        ,xlab = "Feed Type")
+```
+
+
+a) Reproduce the same plot using the `ggplot`; while fill each boxes with different colour. 
+
+b) In addition draw probability density plot for weights of chicken's growth by each feed seperately using the `ggplot`. Draw this plot seperately. 
+
+```{r}
+## write your R-function for problem 3 here
+##
+##
+```
+
+### **Problem 4:** (3 points)
+
+Consider the `EuStockMarkets` data available in `R`. Contains the daily closing prices of major European stock indices: Germany DAX (Ibis), Switzerland SMI, France CAC, and UK FTSE. The data are sampled in business time, i.e., weekends and holidays are omitted.
+
+```{r}
+head(EuStockMarkets)
+```
+
++ Suppose $P_t$ is the closing price of a stock indices on day $t$. 
++ The daily return $r_t$ is defined as
+$$
+r_t = \log(P_t)-\log(P_{t-1}).
+$$
+a) Draw time-series plot of $P_t$ for all four markets
+b) Draw time-series plot of $r_t$ for all four markets
+c) Draw histogram of $P_t$ for all four markets
+d) Draw histogram of $r_t$ for all four markets
+e) Suppose you invested \$ 1000 in each market indices on day 1. Plot how your investment grows on the same plot for all four markets. Make your plot using `ggplot`.
+f) Check which market outperform others during the same time?
+
+Make all your plots using `ggplot`.
+
+```{r}
+## write your R-function for problem 4 here
+##
+##
+```
