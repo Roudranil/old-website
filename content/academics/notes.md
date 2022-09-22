@@ -33,6 +33,10 @@ hideSummary: true
    There's a section on linked lists and flexible lists in it as well.
 3. [Associated Jupyter Notebook](/cmi-notes/SEM%201/PDSP/notes/lecture_notes.ipynb)
 
+For `NumPy` and `Pandas` I would recommend the following resources: 
+1. [Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
+2. [Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+
 
 ### Probability and Statistics with R
 
@@ -45,11 +49,14 @@ hideSummary: true
 1. [Class notes for probability and statistics](/cmi-notes/SEM%201/PBSR%20%26%20VISU/notes/PBSR_notes.pdf)
 2. [R programming classwork](/cmi-notes/SEM%201/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.html) (Contains code for some things shown in the class notes.)  
     a. [Football betting data analysis](/cmi-notes/SEM%201/PBSR%20%26%20VISU/PBSR%20classwork/05-09-2022-football-betting-data-analysis.html)
+
 ### Mathematical Methods - Analysis
 
 *4 credits course*.  
 
 Although there is no class notes that I can upload, a good idea is to follow <span style="color:#F6DDCC">**Principles of Mathematical Analysis**</span> by Walter Rudin and <span style="color:#F6DDCC">**Introduction to Real Analysis**</span> by Bartle and Sherbert.
+
+For Riemann Integration, a good resource to brush up quickly on the topic is [<span style="color:#F6DDCC">here</span>](https://www.math.ucdavis.edu/~hunter/m125b/ch1.pdf).
 
 For multivariable calculus, it's usually recommended to follow <span style="color:#F6DDCC">**Calculus, Volume 2**</span> by Tom M. Apostol. Personally I do find [<span style="color:#F6DDCC">**Multivariable Calculus**</span>](https://open.umn.edu/opentextbooks/textbooks/780) by Don Shimamoto to be very useful as well.
 
