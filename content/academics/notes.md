@@ -31,7 +31,8 @@ hideSummary: true
 1. [Introduction to Python Programming](/cmi-notes/SEM%201/PDSP/notes/notes.pdf)  
 2. [Object Oriented programming](/cmi-notes/SEM%201/PDSP/notes/Object%20oriented%20programing.pdf)  
    There's a section on linked lists and flexible lists in it as well.
-3. [Associated Jupyter Notebook](/cmi-notes/SEM%201/PDSP/notes/lecture_notes.ipynb)
+3. [Analysis of Algorthims](/cmo-notes/SEM%201/PDSP/notes/Algorithms.pdf)
+4. [Associated Jupyter Notebook](/cmi-notes/SEM%201/PDSP/notes/lecture_notes.ipynb)
 
 For `NumPy` and `Pandas` I would recommend the following resources: 
 1. [Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
