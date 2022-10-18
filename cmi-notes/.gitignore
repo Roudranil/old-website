@@ -8,9 +8,11 @@ SEM 1/PBSR & VISU/assignments
 SEM 1/PBSR & VISU/practice
 SEM 1/PBSR & VISU/visualisation classwork/trial_project_folder
 SEM 1/PBSR & VISU/visualisation assignment
+SEM 1/PBSR & VISU/visualisation-project
 
 SEM 1/RDBMS & SQL/assignments
 SEM 1/RDBMS & SQL/classwork
+SEM 1/RDBMS & SQL/mamu notes
 
 SEM 1/random works (latex)/
 
@@ -31,5 +33,6 @@ SEM 1/random works (R)/
 *.Rhistory
 *.csv
 *.tex
+*.thm
 .Rproj.user
 *desktop.ini
