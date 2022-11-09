@@ -1,24 +1,26 @@
-SEM 1/MATH/
+sem-1/MATH/
 
-SEM 1/PDSP/Assignments
-SEM 1/PDSP/nptel course
+sem-1/PDSP/assignments
+sem-1/PDSP/nptel-course
+sem-1/PDSP/mamu-notes
 
-SEM 1/PBSR & VISU/assignments
-# SEM 1/PBSR & VISU/PBSR classwork
-SEM 1/PBSR & VISU/practice
-SEM 1/PBSR & VISU/visualisation classwork/trial_project_folder
-SEM 1/PBSR & VISU/visualisation assignment
-SEM 1/PBSR & VISU/visualisation-project
+sem-1/PBSR & VISU/assignments
+# sem-1/PBSR & VISU/PBSR classwork
+sem-1/PBSR & VISU/practice
+sem-1/PBSR & VISU/visualisation classwork/trial_project_folder
+sem-1/PBSR & VISU/visualisation assignment
+sem-1/PBSR & VISU/visualisation-project
+sem-1/PBSR & VISU/pbsr-assignment
 
-SEM 1/RDBMS & SQL/assignments
-SEM 1/RDBMS & SQL/classwork
-SEM 1/RDBMS & SQL/mamu notes
+sem-1/RDBMS & SQL/assignments
+sem-1/RDBMS & SQL/classwork
+sem-1/RDBMS & SQL/mamu notes
 
-SEM 1/random works (latex)/
+sem-1/random-works-latex/
 
-SEM 1/random works (python)/
+sem-1/random-works-python/
 
-SEM 1/random works (R)/
+sem-1/random-works-r/
 
 *.toc
 *.png
@@ -26,6 +28,8 @@ SEM 1/random works (R)/
 *.fdb_latexmk
 *.fls
 *.txt
+*.bcf
+*.xml
 *.out
 *.log
 *.gz
