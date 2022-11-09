@@ -25,14 +25,14 @@ hideSummary: true
 
 *4 credits course*.
 
-<!-- 1. [Introduction to Python Programming](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PDSP/notes/notes.pdf)  
-2. [Object Oriented programming](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PDSP/notes/Object%20oriented%20programing.pdf)
-3. [Associated Jupyter Notebook](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PDSP/notes/lecture_notes.ipynb) -->
-1. [Introduction to Python Programming](/cmi-notes/SEM%201/PDSP/notes/notes.pdf)  
-2. [Object Oriented programming](/cmi-notes/SEM%201/PDSP/notes/Object%20oriented%20programing.pdf)  
+<!-- 1. [Introduction to Python Programming](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PDSP/notes/notes.pdf)  
+2. [Object Oriented programming](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PDSP/notes/Object%20oriented%20programing.pdf)
+3. [Associated Jupyter Notebook](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PDSP/notes/lecture_notes.ipynb) -->
+1. [Introduction to Python Programming](/cmi-notes/sem-1/PDSP/notes/notes.pdf)  
+2. [Object Oriented programming](/cmi-notes/sem-1/PDSP/notes/Object%20oriented%20programing.pdf)  
    There's a section on linked lists and flexible lists in it as well.
-3. [Analysis of Algorithms](/cmo-notes/SEM%201/PDSP/notes/Algorithms.pdf)
-4. [Associated Jupyter Notebook](/cmi-notes/SEM%201/PDSP/notes/lecture_notes.ipynb)
+3. [Algorithms and Data Structures](/cmi-notes/sem-1/PDSP/notes/Algorithms.pdf)
+4. [Associated Jupyter Notebook](/cmi-notes/sem-1/PDSP/notes/lecture_notes.ipynb)
 
 For `NumPy` and `Pandas` I would recommend the following resources: 
 1. [Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
@@ -43,13 +43,13 @@ For `NumPy` and `Pandas` I would recommend the following resources:
 
 *4 credits course*.
 
-<!-- 1. [Class notes for probability and statistics](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PBSR%20%26%20VISU/notes/PBSR_notes.pdf)
-2. [R programming classwork](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.Rmd) (R markdown file. Contains code for some things shown in the class notes.)  
-    a. [Football betting data analysis](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.Rmd) (R markdown file). -->
+<!-- 1. [Class notes for probability and statistics](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PBSR%20%26%20VISU/notes/PBSR_notes.pdf)
+2. [R programming classwork](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.Rmd) (R markdown file. Contains code for some things shown in the class notes.)  
+    a. [Football betting data analysis](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.Rmd) (R markdown file). -->
 
-1. [Class notes for probability and statistics](/cmi-notes/SEM%201/PBSR%20%26%20VISU/notes/PBSR_notes.pdf)
-2. [R programming classwork](/cmi-notes/SEM%201/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.html) (Contains code for some things shown in the class notes.)  
-    a. [Football betting data analysis](/cmi-notes/SEM%201/PBSR%20%26%20VISU/PBSR%20classwork/05-09-2022-football-betting-data-analysis.html)
+1. [Class notes for probability and statistics](/cmi-notes/sem-1/PBSR%20%26%20VISU/notes/PBSR_notes.pdf)
+2. [R programming classwork](/cmi-notes/sem-1/PBSR%20%26%20VISU/PBSR%20classwork/classwork_rmd.html) (Contains code for some things shown in the class notes.)  
+    a. [Football betting data analysis](/cmi-notes/sem-1/PBSR%20%26%20VISU/PBSR%20classwork/05-09-2022-football-betting-data-analysis.html)
 
 ### Mathematical Methods - Analysis
 
@@ -65,12 +65,12 @@ For multivariable calculus, it's usually recommended to follow <span style="colo
 
 *2 credits course*.
 
-<!-- 1. [Associated R markdown file](https://github.com/Roudranil/cmi-notes/blob/main/SEM%201/PBSR%20%26%20VISU/visualisation%20classwork/visualisation_rmd.Rmd) -->
+<!-- 1. [Associated R markdown file](https://github.com/Roudranil/cmi-notes/blob/main/sem-1/PBSR%20%26%20VISU/visualisation%20classwork/visualisation_rmd.Rmd) -->
 
-1. [Associated R markdown file](/cmi-notes/SEM%201/PBSR%20%26%20VISU/visualisation%20classwork/visualisation_rmd.html)
+1. [Associated R markdown file](/cmi-notes/sem-1/PBSR%20%26%20VISU/visualisation%20classwork/visualisation_rmd.html)
 
 ### RDBMS and SQL
 
 *2 credits course*.
 
-1. [Introduction to RDBMS and SQL](/cmi-notes/SEM%201/RDBMS%20%26%20SQL/notes/notes.pdf)
+1. [Introduction to RDBMS and SQL](/cmi-notes/sem-1/RDBMS%20%26%20SQL/notes/notes.pdf)
