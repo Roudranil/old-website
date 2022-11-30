@@ -16,4 +16,7 @@ hideSummary: true
 
 ## Synopsis
 
-Synopsis here.
+ In this project we explore the trends of deforestation in the past 3 decades. We use visualisation techniques in order to find patterns behind deforestation and it's driving factors. Following this, we attempt to answer questions regarding conversion of forests to land for other purposes and questions regarding Brazil's excessive loss of forest cover. Then we aim to develop a dashboard to explore the above posed questions.
+
+ Report: [link](https://github.com/Roudranil/deforestation-and-forest-conversion/blob/main/doc/report.pdf)  
+`R Shiny` dashboard: [link](https://roudranil.shinyapps.io/forest-and-deforestation/)
