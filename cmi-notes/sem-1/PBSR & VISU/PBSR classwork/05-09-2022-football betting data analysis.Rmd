@@ -92,6 +92,7 @@ optimise(log_likelihood_poisson, c(0,10), maximum = T, data = FTHG)
 ?faithful
 head(faithful)
 ```
+
 ```{r}
 faithful %>% 
     ggplot(aes(x = eruptions, y = waiting)) +
