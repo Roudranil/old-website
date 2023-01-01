@@ -1,4 +1,60 @@
 @font-face {
+    font-family: 'Computer Modern';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/cmu.serif-roman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/cmu.serif-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/font/cmu.serif-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Computer Modern Sans Serif';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/font/cmu.sans-serif-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Computer Modern Sans Serif';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/font/cmu.sans-serif-medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Computer Modern Typewriter';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/font/cmu.typrewriter-text-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Computer Modern Typewriter';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/font/cmu.typrewriter-text-bold.otf') format('opentype');
+}
+
+@font-face {
     font-family: 'Latin Modern';
     font-style: normal;
     font-weight: normal;
@@ -55,7 +111,47 @@
 }
 
 body {
-    font-family: 'Latin Modern';
+    font-family: 'Computer Modern';
+}
+
+h1 {
+    font-family: 'Computer Modern Sans Serif';
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Computer Modern Sans Serif';
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Computer Modern Sans Serif';
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Computer Modern Sans Serif';
+    font-weight: 500;
+}
+
+.breadcrumbs a {
+    font-family: 'Computer Modern Sans Serif';
+    font-weight: 300;
+}
+
+#menu a {
+    font-family: 'Computer Modern Sans Serif';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo a {
+    font-family: 'Computer Modern Sans Serif';
+}
+
+a {
+    font-family: Consolas;
+    font-weight: 400;
 }
 
 code {
