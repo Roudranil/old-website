@@ -16,8 +16,6 @@ hugo-heading-anchors: false
 ShowCodeCopyButtons: false
 ---
 
----
-
 ## Introduction
 
 I am Roudranil Das, a first year **MSc. Data Science** student at the <span style="color:#5DADE2">**Chennai Mathematical Institute, India**</span> and I did my bachelors in Mathematics from <span style="color:#AED6F1">St. Xavier's College, Kolkata</span>. 
@@ -25,8 +23,6 @@ I am Roudranil Das, a first year **MSc. Data Science** student at the <span styl
 I am interested in the applications of AI/ML in the financial sector. Lately I have taken a keen interest in audio signal processing for Machine Learning and application of DL models for audio detection and other use cases. 
 
 Besides, I am also a musician! I have been playing the mandolin for the past 5 years. Alongside the mandolin, I also play the banjo and melodica.
-
----
 
 ## Courses taken
 
@@ -52,8 +48,6 @@ Following are the courses i have taken in my undergraduate and postgraduate degr
     * Real Analysis: Single and multi variable calculus
     * RDBMS and SQL
 
----
-
 ## Awards and Achievements
 
 - _2017_ : **Jagadish Bose National Science Talent Search Junior Scholarship Awardee**
@@ -64,8 +58,6 @@ Following are the courses i have taken in my undergraduate and postgraduate degr
 
 - _2019_ : **DST-INSPIRE Scholarship for Higher Education, Department of Science and Technology, Government of India**
   - Qualified to be a scholar under the DST-INSPIRE Scholarship of Higher Education scheme by virtue of being a JBNSTS senior scholar and also by being in the top 1% in the country based on ISC marks.
-
----
 
 ## Skills
 
@@ -109,7 +101,6 @@ $\text{\LaTeX}$
 	</div>
 </div>
 		
----
 ## Resume
 
 <!-- [Resume](/pdf/roudranil-resume.pdf "My resume") -->
