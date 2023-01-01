@@ -28,8 +28,7 @@ corresponding 95% Bayesian Credible Intervals. The values obtained by Bayesian m
 *Concluding remarks*: From the results of our models, we can conclude that a Bayesian analysis of vaccine clinical trials 
 data is also a viable method to compute the efficacy.
 
-## Link to the paper
+## Links
 
-The full text of the project paper is [available here](/pdf/dissertation.pdf).
-
+The full text of the project paper is [available here](/pdf/dissertation.pdf).  
 The code associated with the paper (as well as the paper itself) can be found in this [repo](https://github.com/Roudranil/Bayesian-analysis-of-efficacy-of-the-ChAdOx1-nCoV-19-AZD1222-vaccine).
