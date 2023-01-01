@@ -29,9 +29,9 @@ params:
     enabled: true
     title: "Hello there \U0001F44B"
     subtitle: |
-      <br>I am Roudranil, and this is my website.<br><br>
+      <br>I am Roudranil and I am a masters student in Data Science.<br><br>
       
-      Click on [`About`](/about/) to know more about me. [`Academics`](/academics/) contains the course notes I have taken till now in my MSc. Data Science program at CMI. <br><br>
+      I am primarily interest in all sorts of practical applications of AI and machine learning. I have a keen interest in the applications of ML in the audio and music domain. Feel free to look at [`About`](/about/) to know more about me or [`Projects`](/projects/) to view my work. <br><br>
 
     imageUrl: img/profilephoto.png
     # imageTitle: <title of image as alt>

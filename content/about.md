@@ -22,7 +22,7 @@ ShowCodeCopyButtons: false
 
 I am Roudranil Das, a first year **MSc. Data Science** student at the <span style="color:#5DADE2">**Chennai Mathematical Institute, India**</span> and I did my bachelors in Mathematics from <span style="color:#AED6F1">St. Xavier's College, Kolkata</span>. 
 
-I am primarily interested in the fields of computer vision and reinforcement learning. 
+I am interested in the applications of AI/ML in the financial sector. Lately I have taken a keen interest in audio signal processing for Machine Learning and application of DL models for audio detection and other use cases. 
 
 Besides, I am also a musician! I have been playing the mandolin for the past 5 years. Alongside the mandolin, I also play the banjo and melodica.
 
@@ -49,6 +49,8 @@ Following are the courses i have taken in my undergraduate and postgraduate degr
     * Programming and Data Structures in Python
     * Probability and Statistics with R
     * Visualisation in R
+    * Real Analysis: Single and multi variable calculus
+    * RDBMS and SQL
 
 ---
 
