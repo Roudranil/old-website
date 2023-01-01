@@ -42,7 +42,7 @@ params:
   GitHubUser: roudranil
   showMenuItems: 5
   showLanguageSelector: false
-  fullWidthTheme: false
+  fullWidthTheme: True
   centerTheme: true
   autoCover: true
   showLastUpdated: false
