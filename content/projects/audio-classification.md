@@ -157,15 +157,44 @@ Estimated Total Size (MB): 330.17
 
 Model performance on the validation and test sets for each of the model and the number of epochs they were trained for is listed in the table below.
 
-| Model             | Num epochs | Validation acc | Test acc |
-| ----------------- | ---------- | -------------- | -------- |
-| Baseline          | 3          | 26.4           | 27.6     |
-| CRNN              | 3          | 56.94          | 56.62    |
-| Parallel CNN-LSTM | 6          | 84.92          | 84.29    |
+<div style="width:70%;margin: auto;">
+<table class="demTable">
+<thead>
+<tr>
+	<th>Model</th>
+	<th># epochs</th>
+	<th>Validation accuracy</th>
+	<th>Test accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>Baseline</td>
+	<td>3&nbsp;</td>
+	<td>&nbsp;26.4</td>
+	<td>27.6&nbsp;</td>
+</tr>
+<tr>
+	<td>&nbsp;CRNN</td>
+	<td>3&nbsp;</td>
+	<td>&nbsp;56.94</td>
+	<td>56.62&nbsp;</td>
+</tr>
+<tr>
+	<td>&nbsp;Parallel CNN-LSTM</td>
+	<td>6&nbsp;</td>
+	<td>84.92&nbsp;</td>
+	<td>&nbsp;84.29</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Classification report for Parallel CNN-LSTM:
 
-|              | precision | recall | f1-score | support |
+<div style="width:50%;margin: auto;">
+
+|              | Precision | Recall | F1-score | Support |
 | ------------ | --------- | ------ | -------- | ------- |
 | zero         | 0.91      | 0.87   | 0.89     | 250     |
 | one          | 0.71      | 0.9    | 0.79     | 248     |
@@ -178,9 +207,11 @@ Classification report for Parallel CNN-LSTM:
 | eight        | 0.91      | 0.82   | 0.86     | 257     |
 | nine         | 0.84      | 0.83   | 0.83     | 259     |
 |              |           |        |          |         |
-| accuracy     |           |        | 0.84     | 2552    |
-| macro avg    | 0.85      | 0.84   | 0.84     | 2552    |
-| weighted avg | 0.85      | 0.84   | 0.84     | 2552    |
+| **Accuracy**     |           |        | 0.84     | 2552    |
+| **Macro avg**    | 0.85      | 0.84   | 0.84     | 2552    |
+| **Weighted avg** | 0.85      | 0.84   | 0.84     | 2552    |
+
+</div>
 
 Final training was done for small number of epochs because of lack of gpu due to a gpu error, and also decreasing validation accuracy if trained after that point.
 
