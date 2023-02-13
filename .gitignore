@@ -2,3 +2,5 @@ public
 resources
 
 *.lock
+.tmp.driveupload
+themes/PaperModX
