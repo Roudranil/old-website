@@ -1,6 +1,6 @@
 baseURL: https://roudranil.github.io/
 languageCode: en-us
-theme: PaperMod
+theme: PaperMod1
 
 enableEmoji: true
 enableGitInfo: true
@@ -31,7 +31,7 @@ params:
     subtitle: |
       <br>I am Roudranil and I am a masters student in Data Science.<br><br>
       
-      I am primarily interest in all sorts of practical applications of AI and machine learning. I have a keen interest in the applications of ML in the audio and music domain. Feel free to look at [`About`](/about/) to know more about me or [`Projects`](/projects/) to view my work. <br><br>
+      I am primarily interested in all sorts of practical applications of AI and machine learning. I have a keen interest in the applications of ML in the audio and music domain. Feel free to look at [`About`](/about/) to know more about me or [`Projects`](/projects/) to view my work. <br><br>
 
     imageUrl: img/profilephoto.png
     # imageTitle: <title of image as alt>
