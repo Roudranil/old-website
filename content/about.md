@@ -104,7 +104,7 @@ $\text{\LaTeX}$
 ## Resume
 
 <!-- [Resume](/pdf/roudranil-resume.pdf "My resume") -->
-[Resume](/resume/roudranil-resume.pdf "My resume")
+[Resume](/pdf/roudranil-resume.pdf "My resume")
 
 
 
