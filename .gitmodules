@@ -7,6 +7,6 @@
 [submodule "static/cmi-notes"]
 	path = static/cmi-notes
 	url = https://github.com/Roudranil/cmi-notes.git
-# [submodule "themes/PaperMod1"]
-# 	path = themes/PaperMod1
-# 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/PaperMod1"]
+	path = themes/PaperMod1
+	url = https://github.com/adityatelange/hugo-PaperMod.git
