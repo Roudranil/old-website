@@ -1,26 +1,26 @@
-@font-face {
+/* @font-face {
     font-family: 'Computer Modern';
     font-style: normal;
     font-weight: normal;
     font-display: swap;
     src: url('/font/cmu.serif-roman.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'Computer Modern';
     font-style: italic;
     font-weight: normal;
     font-display: swap;
     src: url('/font/cmu.serif-italic.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'Computer Modern';
     font-style: normal;
     font-weight: bold;
     font-display: swap;
     src: url('/font/cmu.serif-bold.otf') format('opentype');
-}
+} */
 
 /* @font-face {
     font-family: 'Computer Modern Sans Serif';
@@ -132,6 +132,7 @@ body {
 h1 {
     font-family: 'Computer Modern Sans Serif';
     font-weight: bold;
+    font-size: xx-large;
 }
 
 h2 {
