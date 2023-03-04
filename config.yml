@@ -108,15 +108,15 @@ languages:
           name: Projects
           url: /projects
           weight: 30
-        - identifier: academic
-          name: Academics
-          url: /academics
-          weight: 40
+        # - identifier: academic
+        #   name: Academics
+        #   url: /academics
+        #   weight: 40
         - identifier: contact
           name: Contact
           url: contact/
-          weight: 50
+          weight: 40
         - identifier: search
           name: Search
           url: search/
-          weight: 60
+          weight: 50
