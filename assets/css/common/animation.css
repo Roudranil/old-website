@@ -3,20 +3,20 @@ a {
 }
 
 a:hover {
-    color: #98F9FF;
+    color: var(--animation-col);
     
 }
   
 a::before {
     
-    color: #98F9FF;
+    color: var(--animation-col);
     content: '';
     position: absolute;
     width: 100%;
     height: 1.3px;
     border-radius: 4px;
     /* background-color: #cccccc; */
-    background-color: #98F9FF;
+    background-color: var(--animation-col);
     bottom: 0;
     left: 0;
     transform-origin: right;
